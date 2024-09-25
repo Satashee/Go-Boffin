@@ -1,0 +1,147 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Freight big pro";
+    background-image: url('contact\ img.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+button {
+    cursor: pointer;
+    background-color: gold;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #8a8989;
+}
+ /* . nav .navbar  li a:hover {
+    color: gold; /* Color change on hover */
+*/
+a:hover{
+    color: blue;
+}
+
+/* Header styles */
+
+
+
+/* Contact form styles */
+.contact-form {
+    width: 50%;
+    margin: 0px 50px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.contact-form h1 {
+    color: #fff;
+    margin-bottom: 30px;
+
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px 1px #ccc;
+}
+
+.contact-form button {
+    width: 200px;
+    margin-top: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #0f0f0f;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    header {
+        padding: 0 20px;
+    }
+
+    .contact-form {
+        width: 80%;
+    }
+}
+
+.nav {
+    padding: 5px 10px 5px 10px;
+}
+
+.navbar {
+    background-color: black;
+    justify-content: space-around;
+    margin: -10px -10px 1px -10px;
+}
+
+.navbar {
+    overflow: auto;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    padding: 3px 3px;
+    color: white;
+}
+
+img {
+    width: 70px;
+    height:50px;
+    display: flex;
+    margin-bottom: -20px;
+    margin-top: -10px;
+}
+
+#btn {
+    float: right;
+    cursor: pointer;
+    background-color: gold;
+    border: none;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 10px 20px 10px 20px;
+}
+
+#btn:hover {
+    background-color: #8a8989;
+}

@@ -1,0 +1,36 @@
+/* CSS Styles */
+.container{
+    margin: 10% 10%;
+  }
+  .job-table {
+    margin: 2% 2% 2% 2% ;
+    
+    border-collapse: collapse;
+  }
+  
+  .job-table th, .job-table td {
+    border: 3px solid #dddddd;
+    padding: 8px;
+  }
+  
+  .job-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .job-row:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .job-row:hover {
+    background-color:yellow;
+  }
+  
+  .job-table a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .job-table a:hover {
+    text-decoration: underline;
+  }
+  

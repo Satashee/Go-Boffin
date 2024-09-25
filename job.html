@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Menu</title>
+</head>
+<style>
+    .nav {
+        padding: 5px 10px 5px 10px;
+    }
+
+    .navbar {
+        background-color: black;
+      
+    }
+    
+    .navbar {
+        overflow: auto;
+    }
+
+    .navbar li {
+        float: left;
+        list-style: none;
+        margin: 20px;
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        padding: 3px 3px;
+        color: white;
+    }
+    .navbar li a:hover {
+    color: gold;}
+  /* .search {
+        color: black;
+        float: right;
+        margin: 3px;
+        padding: 3px;
+        padding-right: 20px;
+    } */
+
+    body {
+        overflow: auto;
+        font-family: "Freight big pro";
+    }
+
+    .container {
+        height: 400px;
+        width: 100vw;
+        margin-top: -8px;
+        margin-left: -8px;
+        /* background-color: red; */
+    }
+
+    footer {
+        background-color: #0f0f0f;
+        padding: 1rem;
+        text-align: center;
+        margin: 100px -16px -15px -38px
+        
+    }
+
+    #btn {
+        float: right;
+        background-color: gold;
+        border-radius: 18px;
+        border: black;
+        margin: 15px;
+        padding: 5px 12px 5px 13px;
+    }
+    #btn:hover {
+    background-color: #8a8989;
+}
+
+    #get-job-button {
+        background-color:white;
+        border: 2px solid black;
+        border-radius: 71px;
+        padding: 10px 15px 10px 15px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    #get-job-button :hover{
+        color: black;
+    }
+
+    .linked {
+        padding: 2px;
+        border-radius: 3px;
+        /*border edges */
+        text-decoration: none;
+        /* remove underline */
+        color: black;
+    }
+
+    #job {
+        text-align: center;
+        margin: 1px 10px 400px 45px;
+    }
+
+    #images {
+        margin: 1px 10px 1px 45px;
+    }
+
+    footer p {
+        color: white;
+    }
+    .example{
+        position: relative;
+    }
+    .example img{
+        width: 100%;
+        height: 500px;
+    }
+    .example .text {
+    background-color: #F5E41B;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 20px;
+    opacity: 0.99;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <header>
+            <nav class="nav">
+                <ul class="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="ROADMAP.HTML">Roadmaps</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                    <button id="btn">
+                        <a href="signin.html" class="linked">Signin/Signup</a>
+                    </button>
+                </ul>
+            </nav>
+        </header>
+        <div class="example">
+            <img id="images" src="JOB.png" alt="JOB PAGE">
+            <div class="text">
+                <h1>GO BOFFIN !!<h1>
+                        <h3>"Your Next Chapter Starts Here!"</h3>
+                        <h5> "Imagine Your Future: Click Here to Begin Your Next Career Chapter!"</h5>
+                        <button id="get-job-button" style="text-decoration: none; color: azure; "> <a href="jobt.html" class="linked2">Get a Job</a></button> 
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>
